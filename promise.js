@@ -28,6 +28,7 @@ const myPromise = new Promise((resolve, reject) => { // (1) I forgot what to do 
     }, 2000); 
 }) 
 
+
 //myPromise()   // 착각함. myPromise 이건 일단 object잖아!
 myPromise.then((resolvedData)=>{
     console.log(resolvedData)      // argument가 하나면 data.
